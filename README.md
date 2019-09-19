@@ -1,3 +1,9 @@
+# Standard Velocity
+
+This is a forked version, used with the forked Standard Notes core.
+
+# Standard Notes
+
 This application makes use of the core JS/CSS/HTML code found in the [web repo](https://github.com/standardnotes/web). For issues related to the actual app experience, please post issues in the web repo.
 
 ## Running Locally
