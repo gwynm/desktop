@@ -2,6 +2,10 @@
 
 This is a forked version, used with the forked Standard Notes core.
 
+It'll pull the forked core itself (in package.json) initially, but if you're doing development, you probably want to rm -rf app/node_modules/standard-notes-web and ln -s ~/dev/standard-velocity-web app/node_modules/standard-notes-web. Then run npm build on the web side, then npm run dist-linux on the desktop side, to make a new version after changes.
+
+
+
 # Standard Notes
 
 This application makes use of the core JS/CSS/HTML code found in the [web repo](https://github.com/standardnotes/web). For issues related to the actual app experience, please post issues in the web repo.
